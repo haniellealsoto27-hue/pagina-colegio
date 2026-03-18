@@ -1,0 +1,104 @@
+body{
+    margin: 0%;
+    font-family: century gothic;
+    background-color: aquamarine;
+}
+
+h2{
+    font-family: Cooper Black;
+}
+
+.contenedor{
+    display: flex;
+    min-height: 100vh;
+}
+
+.menu{
+    width: 300px;
+    padding: 20px;
+    background-color: cyan;
+    flex-shrink: 0;
+}
+
+.btnsomos img{
+    width: 800px;
+}
+
+img{
+    width: 800px;
+    padding: 30px;
+}
+
+#calific{
+    width: 300px;
+    padding: 30px;
+}
+#flecha{
+    width: 100px;
+    padding: 30px;
+}
+
+#imgimc{
+    width: 600px;
+    padding: 30px;
+}
+
+#blaise{
+    width: 300px;
+    padding: 30px;
+}
+
+button{
+    width: 150px;
+    height: 60px;
+    font-family: Rockwell;
+    background-color: rgb(0, 255, 208);
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(188, 28, 145, 0.619);
+}
+
+button:hover{
+    background-color: rgb(255, 15, 99);
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+button:active{
+    background-color: blue;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.calcimc{
+    margin-left: 50px;
+}
+
+label{
+    color: red;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+input {
+    background-color: rgb(140, 176, 239);
+    font-size: 25px;
+    font-family: consolas;
+    width: 70px;
+}
+
+table{
+    border-color: red;
+    width: 800px;
+    height: 300px;
+}
+
+th{
+    height: 30px;
+}
+
+td{
+    padding-top: 0px;
+}
